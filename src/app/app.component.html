@@ -1,0 +1,14 @@
+<mbsc-page >
+    <mbsc-form>
+        <div class="mbsc-grid mbsc-form-grid">
+            <div class="mbsc-row">
+                <div class="mbsc-col-sm-12 mbsc-col-md-6">
+                    <mbsc-select [(ngModel)]="mobile" [options]="mobileSettings" [data]="items" input-style="box">Mobile</mbsc-select>
+                </div>
+                <div class="mbsc-col-sm-12 mbsc-col-md-6">
+                    <mbsc-select [(ngModel)]="desktop" [options]="desktopSettings" [data]="items" input-style="box">Desktop</mbsc-select>
+                </div>
+            </div>
+        </div>
+    </mbsc-form>
+</mbsc-page>
